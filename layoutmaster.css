@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+  
+  header {
+    background-image: url('basit.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative; /* Add position relative to position children elements */
+  }
+  
+  .main {
+    max-width: 1100px;
+    margin: auto;
+  }
+  
+  ul {
+    list-style-type: none;
+    float: right;
+    margin-top: 25px;
+  }
+  
+  ul li {
+    display: inline-block;
+    border: 1px solid transparent;
+  }
+  
+  ul li a {
+    color: rgb(17, 202, 211);
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+  }
+  
+  ul li a:hover {
+    background-color: rgb(205, 246, 232);
+    color: rgb(15, 16, 16);
+    transition: 0.6s ease;
+    border-radius: 10px;
+  }
+  
+  .active {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+  }
+  
+  .logo img {
+    margin-top: 25px;
+    border-radius: 50px;
+  }
+  
+  .center_text {
+    margin-top: 150px;
+    margin-bottom: 50px;
+    margin-left: 520px;
+  }
+  
+  h1 {
+    color: rgb(63, 255, 140);
+  }
+  
+  #btn-1,
+  #btn-2 {
+    border: 1px solid white;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    margin-top: 50px;
+    display: inline-block; /* Display buttons side by side */
+    margin-right: 3px; /* Add margin between buttons */
+    margin-left: 15px;
+    border-radius: 20px;
+  }
+  
+  #btn-1:hover,
+  #btn-2:hover {
+    background-color: rgb(255, 63, 242);
+    color: black;
+    transition: 0.6s ease;
+    border-radius: 20px;
+  }
+  
